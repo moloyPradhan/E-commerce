@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#items-section{
+    background-color: whitesmoke;
+}
+.items{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 3px gray;
+}
+.item{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0px auto;
+   cursor: pointer;
+
+}
+.item img{
+  width: 70px;
+  
+
+}
+.item p{
+ font-weight: bold;
+ color:royalblue;
+}
+a{
+    text-decoration: none;
+    color:royalblue;
+}
